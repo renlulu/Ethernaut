@@ -8,6 +8,8 @@
     "format": "prettier --write 'test/**/*.sol' 'src/**/*.sol' 'instances/**/*.sol'",
     "l0": "forge test --match-path test/TLevel00.sol -vvvv",
     "l1": "forge test --match-path test/TLevel01.sol -vvvv",
-    "l2": "forge test --match-path test/TLevel02.sol -vvvv"
+    "l2": "forge test --match-path test/TLevel02.sol -vvvv",
+    "l3": "forge test --match-path test/TLevel03.sol -vvvv",
+    "l4": "forge test --match-path test/TLevel04.sol -vvvv"
   }
 }
