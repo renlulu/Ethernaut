@@ -5,8 +5,9 @@
     "prettier-plugin-solidity": "^1.1.1"
   },
   "scripts": {
-    "format": "prettier --write 'test/**/*.sol' 'src/**/*.sol'",
+    "format": "prettier --write 'test/**/*.sol' 'src/**/*.sol' 'instances/**/*.sol'",
     "l0": "forge test --match-path test/TLevel00.sol -vvvv",
-    "l1": "forge test --match-path test/TLevel01.sol -vvvv"
+    "l1": "forge test --match-path test/TLevel01.sol -vvvv",
+    "l2": "forge test --match-path test/TLevel02.sol -vvvv"
   }
 }
