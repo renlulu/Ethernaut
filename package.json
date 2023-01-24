@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "prettier": "^2.8.3",
+    "prettier-plugin-solidity": "^1.1.1"
+  },
+  "scripts": {
+    "format": "prettier --write 'test/**/*.sol' 'src/**/*.sol'"
+  }
+}
