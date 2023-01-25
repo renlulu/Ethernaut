@@ -36,6 +36,6 @@ contract Fallback {
 
     receive() external payable {
         // require(msg.value > 0 && contributions[msg.sender] > 0);
-        owner = payable(msg.sender);
+        // owner = payable(msg.sender);
     }
 }

