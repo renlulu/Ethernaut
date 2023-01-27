@@ -12,6 +12,9 @@
     "l3": "forge test --match-path test/TLevel03.sol -vvvv",
     "l4": "forge test --match-path test/TLevel04.sol -vvvv",
     "l5": "forge test --match-path test/TLevel05.sol -vvvv",
-    "l6": "forge test --match-path test/TLevel06.sol -vvvv"
+    "l6": "forge test --match-path test/TLevel06.sol -vvvv",
+    "l7": "forge test --match-path test/TLevel07.sol -vvvv",
+    "l9": "forge test --match-path test/TLevel09.sol -vvvv",
+    "l10": "forge test --match-path test/TLevel10.sol -vvvv"
   }
 }
