@@ -20,14 +20,14 @@ contract Preservation {
     }
 
     // set the time for timezone 1
-    function setFirstTime(uint _timeStamp) public {
+    function setFirstTime(uint256 _timeStamp) public {
         timeZone1Library.delegatecall(
             abi.encodePacked(setTimeSignature, _timeStamp)
         );
     }
 
     // set the time for timezone 2
-    function setSecondTime(uint _timeStamp) public {
+    function setSecondTime(uint256 _timeStamp) public {
         timeZone2Library.delegatecall(
             abi.encodePacked(setTimeSignature, _timeStamp)
         );
@@ -37,9 +37,9 @@ contract Preservation {
 // Simple library contract to set the time
 contract LibraryContract {
     // stores a timestamp
-    uint storedTime;
+    uint256 storedTime;
 
-    function setTime(uint _time) public {
+    function setTime(uint256 _time) public {
         storedTime = _time;
     }
 }
