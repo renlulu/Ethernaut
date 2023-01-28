@@ -19,6 +19,10 @@
     "l11": "forge test --match-path test/TLevel11.sol -vvvv",
     "l12": "forge test --match-path test/TLevel12.sol -vvvv",
     "l15": "forge test --match-path test/TLevel15.sol -vvvv",
-    "l16": "forge test --match-path test/TLevel16.sol -vvvv"
+    "l16": "forge test --match-path test/TLevel16.sol -vvvv",
+    "l17": "forge test --match-path test/TLevel17.sol -vvvv",
+    "l18": "forge test --match-path test/TLevel18.sol -vvvv",
+    "l20": "forge test --match-path test/TLevel20.sol -vvvv",
+    "l21": "forge test --match-path test/TLevel21.sol -vvvv"
   }
 }
