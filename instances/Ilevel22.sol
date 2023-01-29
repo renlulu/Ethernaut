@@ -43,6 +43,7 @@ contract Dex is Ownable {
         address to,
         uint amount
     ) public view returns (uint) {
+        // x * y == k
         return ((amount * IERC20(to).balanceOf(address(this))) /
             IERC20(from).balanceOf(address(this)));
     }
