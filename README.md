@@ -2,10 +2,10 @@
 
 Rewrite Solutions and Walkthrough for Openzeppelin's Ethernaut CTF written in Solidity with the help of Foundry.
 
-- [x] Use new solidity verion 0.8.17
-- [x] Setup within pure forge test (rather than relying on on-chain setup)
+- [x] Solidity 0.8.17
+- [x] Forge test setup
 
-Origin repo: https://github.com/az0mb13/ethernaut-foundry
+Original repo: https://github.com/az0mb13/ethernaut-foundry
 
 Analysis and detailed solutions can be found on blog - https://blog.dixitaditya.com/series/ethernaut
 
@@ -34,7 +34,7 @@ More levels will be added soon.
 - [x] Lvl 20 Denial
 - [x] Lvl 21 Shop
 - [x] Lvl 22 Dex
-- [ ] Lvl 23 Dex Two
+- [x] Lvl 23 Dex Two
 - [ ] Lvl 24 Puzzle Wallet
 - [ ] Lvl 25 Motorbike
 - [ ] Lvl 26 DoubleEntryPoint
