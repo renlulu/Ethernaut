@@ -2,6 +2,9 @@
 
 Rewrite Solutions and Walkthrough for Openzeppelin's Ethernaut CTF written in Solidity with the help of Foundry.
 
+- [x] Use new solidity verion 0.8.17
+- [x] Setup within pure forge test (rather than relying on on-chain setup)
+
 Origin repo: https://github.com/az0mb13/ethernaut-foundry
 
 Analysis and detailed solutions can be found on blog - https://blog.dixitaditya.com/series/ethernaut
@@ -21,8 +24,8 @@ More levels will be added soon.
 - [x] Lvl 10 Re-entrancy
 - [x] Lvl 11 Elevator
 - [x] Lvl 12 Privacy
-- [] Lvl 13 Gatekeeper 1
-- [] Lvl 14 Gatekeeper 2
+- [ ] Lvl 13 Gatekeeper 1
+- [ ] Lvl 14 Gatekeeper 2
 - [x] Lvl 15 Naught Coin
 - [x] Lvl 16 Preservation
 - [x] Lvl 17 Recovery
@@ -31,8 +34,8 @@ More levels will be added soon.
 - [x] Lvl 20 Denial
 - [x] Lvl 21 Shop
 - [x] Lvl 22 Dex
-- [] Lvl 23 Dex Two
-- [] Lvl 24 Puzzle Wallet
-- [] Lvl 25 Motorbike
-- [] Lvl 26 DoubleEntryPoint
-- [] Lvl 27 Good Samaritan
+- [ ] Lvl 23 Dex Two
+- [ ] Lvl 24 Puzzle Wallet
+- [ ] Lvl 25 Motorbike
+- [ ] Lvl 26 DoubleEntryPoint
+- [ ] Lvl 27 Good Samaritan
