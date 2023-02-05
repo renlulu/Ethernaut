@@ -46,6 +46,8 @@ contract PuzzleWallet {
     mapping(address => bool) public whitelisted;
     mapping(address => uint256) public balances;
 
+    constructor() payable {}
+
     function init(uint256 _maxBalance) public {
         require(maxBalance == 0, "Already initialized");
         maxBalance = _maxBalance;
