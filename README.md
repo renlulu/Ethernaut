@@ -24,8 +24,8 @@ More levels will be added soon.
 - [x] Lvl 10 Re-entrancy
 - [x] Lvl 11 Elevator
 - [x] Lvl 12 Privacy
-- [ ] Lvl 13 Gatekeeper 1
-- [ ] Lvl 14 Gatekeeper 2
+- [x] Lvl 13 Gatekeeper 1
+- [x] Lvl 14 Gatekeeper 2
 - [x] Lvl 15 Naught Coin
 - [x] Lvl 16 Preservation
 - [x] Lvl 17 Recovery
@@ -35,7 +35,7 @@ More levels will be added soon.
 - [x] Lvl 21 Shop
 - [x] Lvl 22 Dex
 - [x] Lvl 23 Dex Two
-- [ ] Lvl 24 Puzzle Wallet
-- [ ] Lvl 25 Motorbike
+- [x] Lvl 24 Puzzle Wallet
+- [x] Lvl 25 Motorbike
 - [ ] Lvl 26 DoubleEntryPoint
-- [ ] Lvl 27 Good Samaritan
+- [x] Lvl 27 Good Samaritan

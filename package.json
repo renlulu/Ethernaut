@@ -18,6 +18,8 @@
     "l10": "forge test --match-path test/TLevel10.sol -vvvv",
     "l11": "forge test --match-path test/TLevel11.sol -vvvv",
     "l12": "forge test --match-path test/TLevel12.sol -vvvv",
+    "l13": "forge test --match-path test/TLevel13.sol -vvvv",
+    "l14": "forge test --match-path test/TLevel14.sol -vvvv",
     "l15": "forge test --match-path test/TLevel15.sol -vvvv",
     "l16": "forge test --match-path test/TLevel16.sol -vvvv",
     "l17": "forge test --match-path test/TLevel17.sol -vvvv",
@@ -27,6 +29,8 @@
     "l22": "forge test --match-path test/TLevel22.sol -vvvv",
     "l23": "forge test --match-path test/TLevel23.sol -vvvv",
     "l24": "forge test --match-path test/TLevel24.sol -vvvv",
-    "l25": "forge test --match-path test/TLevel25.sol -vvvv"
+    "l25": "forge test --match-path test/TLevel25.sol -vvvv",
+    "l26": "forge test --match-path test/TLevel26.sol -vvvv",
+    "l27": "forge test --match-path test/TLevel27.sol -vvvv"
   }
 }
